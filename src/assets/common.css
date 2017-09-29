@@ -1,0 +1,130 @@
+body, div, p, h3, h1, dl, dt, dd, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", 黑体, Helvetica, Arial, Tahoma, sans-serif;
+  color: #555;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.danger-style {
+  color: red;
+}
+
+.green-style {
+  color: #13CE66;
+}
+
+.platform-style {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 25px;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.right-dialog-style {
+  height: 100%;
+  left: 85%;
+  margin-bottom: 0px;
+}
+
+.right-dialog-style .el-dialog__body {
+  height: 80%;
+  overflow-y: auto;
+}
+
+.right-dialog-style .el-dialog__footer {
+  padding: 10px 20px 0px !important;
+  position: fixed !important;
+  bottom: 10px !important;
+  left: 40% !important;
+}
+
+.right-dialog-style form {
+  width: 340px !important;
+}
+
+#nprogress .bar {
+  background: #13CE66 !important;
+  height: 3px !important;
+}
+
+.el-tree-node span {
+  font-size: 13px !important;
+}
+
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+  background-color: #20A0FF !important;
+}
+
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content span {
+  color: aliceblue !important;
+  font-size: 13px !important;
+}
+
+.el-table__empty-block {
+  width: 100% !important;
+}
+
+.el-table {
+  font-size: 13px !important;
+}
+
+.addbutton-style {
+  float: right;
+}
+
+.app-logo-style {
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+}
+
+.app-title-style label {
+  font-size: 15px !important;
+  font-weight: 800;
+  float: initial;
+}
+
+.app-title-style div {
+  margin-left: 0px !important;
+}
+
+[v-cloak] {
+  display: none !important;
+}
+
+.ayou-day-cell {
+  margin: 1px;
+  width: 11.73% !important;
+  height: 52px !important;
+  display: inline-block;
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+.ayou-day-cell.selected {
+  background-color: #1D8CE0 !important;
+  color: #fff;
+}
+
+.date-container .month-year .calendar-month {
+  font-size: 26px !important;
+}
+
+.date-container .week-days span {
+  font-size: 16px !important;
+}
